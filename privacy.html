@@ -1,0 +1,138 @@
+<!-- privacy.html -->
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Политика обработки персональных данных | 0ne L1fe</title>
+    <meta name="description" content="Политика обработки персональных данных 0ne L1fe (Standoff 2)." />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="assets/img/favicon.png" />
+</head>
+
+<body>
+    <a class="skip" href="#main">Перейти к содержимому</a>
+
+    <header class="header" id="top">
+        <div class="container header__inner">
+            <a class="brand" href="index.html#top" aria-label="0ne L1fe — на главную">
+                <span class="brand__mark" aria-hidden="true">0L</span>
+                <span class="brand__text">
+                    <span class="brand__name">0ne L1fe</span>
+                    <span class="brand__tag">Standoff 2 Clan</span>
+                </span>
+            </a>
+
+            <nav class="nav" id="navMenu">
+                <a class="nav__link" href="index.html#about">Кто мы</a>
+                <a class="nav__link" href="index.html#system">Система</a>
+                <a class="nav__link" href="index.html#roster">Ростер</a>
+                <a class="nav__cta btn btn--ghost" href="index.html#join">Подать заявку</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main" class="privacy-page">
+        <div class="container">
+            <div class="privacy-wrap">
+                <h1 class="h2">Политика обработки персональных данных</h1>
+                <p class="micro">Версия: 1.0 • Дата публикации: <span id="privacyDate"></span></p>
+
+                <div class="card" style="margin-top:14px">
+                    <p>
+                        Настоящая политика описывает, какие данные собираются на сайте 0ne L1fe и как они используются.
+                        Сайт предназначен для отбора игроков в клан по игре Standoff 2.
+                    </p>
+                </div>
+
+                <div style="margin-top:18px">
+                    <h2 class="h3">1. Какие данные мы собираем</h2>
+                    <ul class="list">
+                        <li>ID (Standoff 2)</li>
+                        <li>Ник (Name)</li>
+                        <li>KD (основное)</li>
+                        <li>Количество часов</li>
+                        <li>Звания в текущем сезоне (дуэль / союзники / соревновательный)</li>
+                        <li>Звания в предыдущем сезоне (дуэль / союзники / соревновательный)</li>
+                        <li>Контакт для связи (Telegram или Discord)</li>
+                        <li>Комментарий (если пользователь указал)</li>
+                    </ul>
+
+                    <h2 class="h3" style="margin-top:18px">2. Цель обработки</h2>
+                    <p class="sub">
+                        Данные используются исключительно для связи с кандидатом, проведения отбора и коммуникации по
+                        вступлению в 0ne L1fe.
+                    </p>
+
+                    <h2 class="h3" style="margin-top:18px">3. Как обрабатываются и передаются данные</h2>
+                    <p class="sub">
+                        Заявки отправляются через технический обработчик (Cloudflare Workers) и доставляются
+                        администратору в Telegram.
+                        Мы не используем данные для рекламы, не продаём и не передаём их третьим лицам, кроме сервисов,
+                        необходимых для технической доставки заявки.
+                    </p>
+
+                    <h2 class="h3" style="margin-top:18px">4. Срок хранения</h2>
+                    <p class="sub">
+                        Данные хранятся столько, сколько необходимо для целей отбора и коммуникации,
+                        либо до запроса пользователя об удалении (когда это технически возможно в рамках используемых
+                        сервисов).
+                    </p>
+
+                    <h2 class="h3" style="margin-top:18px">5. Права пользователя</h2>
+                    <ul class="list">
+                        <li>запросить уточнение данных, если они указаны неверно;</li>
+                        <li>попросить удалить данные из переписки/учёта отбора (в пределах реальной технической
+                            возможности);</li>
+                        <li>отозвать согласие на обработку, прекратив коммуникацию и сообщив администратору.</li>
+                    </ul>
+
+                    <h2 class="h3" style="margin-top:18px">6. Контакты</h2>
+                    <p class="sub">
+                        По вопросам обработки данных обращайся в тот же канал связи, который ты указал в заявке
+                        (Telegram/Discord),
+                        или через официальные контакты клана (если они опубликованы).
+                    </p>
+                </div>
+
+                <div style="margin-top:20px">
+                    <a class="btn btn--ghost" href="index.html#join">← Вернуться к заявке</a>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <div class="brand brand--footer">
+                    <span class="brand__mark brand__mark--sm" aria-hidden="true">0L</span>
+                    <span class="brand__text">
+                        <span class="brand__name">0ne L1fe</span>
+                        <span class="brand__tag">Standoff 2 Clan</span>
+                    </span>
+                </div>
+                <p class="micro">© <span id="year"></span> 0ne L1fe. Все права защищены.</p>
+            </div>
+
+            <div class="footer__links">
+                <a class="link" href="index.html#top">Главная</a>
+                <a class="link" href="privacy.html">Privacy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        const y = document.getElementById('year');
+        if (y) y.textContent = String(new Date().getFullYear());
+        const d = new Date();
+        const pad = (n) => String(n).padStart(2, '0');
+        const txt = `${pad(d.getDate())}.${pad(d.getMonth() + 1)}.${d.getFullYear()}`;
+        const el = document.getElementById('privacyDate');
+        if (el) el.textContent = txt;
+    </script>
+</body>
+
+</html>

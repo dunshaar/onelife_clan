@@ -1,0 +1,51 @@
+{
+    "brand": {
+        "name": "0ne L1fe",
+        "game": "Standoff 2",
+        "tagline": "Standoff 2 Clan"
+    },
+    "seasons": {
+        "current": "Season X",
+        "previous": "Season X-1"
+    },
+    "form": {
+        "kd": {
+            "min": 0,
+            "max": 10,
+            "step": 0.01
+        },
+        "hours": {
+            "min": 0,
+            "max": 50000,
+            "step": 1
+        }
+    },
+    "ranks": [
+        "None / Not playing",
+        "Bronze I",
+        "Bronze II",
+        "Bronze III",
+        "Bronze IV",
+        "Silver I",
+        "Silver II",
+        "Silver III",
+        "Silver IV",
+        "Gold I",
+        "Gold II",
+        "Gold III",
+        "Gold IV",
+        "Phoenix",
+        "Ranger",
+        "Champion",
+        "Master",
+        "Elite",
+        "The Legend"
+    ],
+    "submit": {
+        "endpoint": "",
+        "timeoutMs": 12000
+    },
+    "security": {
+        "formSecret": "CHANGE_ME_LONG_SECRET"
+    }
+}

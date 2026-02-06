@@ -1,0 +1,324 @@
+<!-- index.html -->
+<!doctype html>
+<html lang="ru">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>0ne L1fe — Standoff 2 Clan</title>
+    <meta name="description" content="0ne L1fe — клан по Standoff 2. Набор игроков." />
+    <meta name="theme-color" content="#0b0b0d" />
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" type="image/png" href="image/clan.png" />
+</head>
+
+<body>
+    <a class="skip" href="#main">Перейти к содержимому</a>
+
+    <header class="header" id="top">
+        <div class="container header__inner">
+            <a class="brand" href="#top" aria-label="0ne L1fe — на главную">
+                <span class="brand__mark" aria-hidden="true">
+                    <img class="brand__logo" src="image/clan.png" alt=""
+                        onerror="this.style.display='none'; this.closest('.brand__mark').classList.add('is-text'); this.closest('.brand__mark').textContent='0L';" />
+                </span>
+                <span class="brand__text">
+                    <span class="brand__name" id="brandName">0ne L1fe</span>
+                    <span class="brand__tag" id="brandGame">Standoff 2 Clan</span>
+                </span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Открыть меню" aria-controls="navMenu"
+                aria-expanded="false">
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+            </button>
+
+            <nav class="nav" id="navMenu">
+                <a class="nav__link" href="#about">О клане</a>
+                <a class="nav__link" href="#leaders">Лидеры</a>
+                <a class="nav__link" href="#join">Заявка</a>
+                <a class="nav__cta btn btn--ghost" href="#join">Подать заявку</a>
+            </nav>
+        </div>
+    </header>
+
+    <main id="main">
+        <!-- HERO -->
+        <section class="hero">
+            <div class="hero__bg" aria-hidden="true"></div>
+            <div class="container hero__inner">
+                <div class="hero__content">
+                    <p class="eyebrow">Standoff 2 • Clan</p>
+
+                    <h1 class="h1">
+                        <span class="grad" id="heroTitle">0ne L1fe</span><br />
+                        <span class="grad2">Набор игроков</span>
+                    </h1>
+
+                    <p class="lead">
+                        Ищем адекватных тиммейтов для совместной игры. Хочешь зайти и попробовать — оставляй заявку.
+                    </p>
+
+                    <div class="hero__actions">
+                        <a class="btn btn--primary" href="#join">Подать заявку</a>
+                        <a class="btn btn--ghost" href="#about">О клане</a>
+                    </div>
+
+                    <div class="hero__proof">
+                        <div class="chip"><span class="chip__k">Атмосфера</span><span class="chip__v">без токсика</span>
+                        </div>
+                        <div class="chip"><span class="chip__k">Связь</span><span class="chip__v">TG/Discord</span>
+                        </div>
+                        <div class="chip"><span class="chip__k">Формат</span><span class="chip__v">клан</span></div>
+                    </div>
+                </div>
+
+                <aside class="hero__card" aria-label="Коротко">
+                    <div class="hero__mini">
+                        <div class="mini-title">Кому подойдёт</div>
+                        <ul class="mini-list">
+                            <li>Хочешь играть командой</li>
+                            <li>Нормально общаешься</li>
+                            <li>Готов катать регулярно</li>
+                        </ul>
+                    </div>
+
+                    <a class="btn btn--primary btn--wide" href="#join">Оставить заявку</a>
+                </aside>
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section" id="about">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="h2">О клане</h2>
+                    <p class="sub">
+                        0ne L1fe — клан по Standoff 2. Сейчас формируем состав: хотим собрать стабильную команду и
+                        играть вместе.
+                    </p>
+                </div>
+
+                <div class="grid3">
+                    <article class="card">
+                        <h3 class="h3">Командная игра</h3>
+                        <p>Инфа, трейды, взаимодействие. Не соло-рулетка.</p>
+                    </article>
+                    <article class="card">
+                        <h3 class="h3">Нормальная атмосфера</h3>
+                        <p>Без токсика и без цирка. Общение — адекватное.</p>
+                    </article>
+                    <article class="card">
+                        <h3 class="h3">Набор открыт</h3>
+                        <p>Заполни заявку — договоримся и сыграем пару каток.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEADERS -->
+        <section class="section section--alt" id="leaders">
+            <div class="container">
+                <div class="section__head">
+                    <h2 class="h2">Лидеры</h2>
+                    <p class="sub">Управляющий состав клана.</p>
+                </div>
+
+                <div class="roster roster--leaders">
+                    <article class="player">
+                        <img class="player__img" src="image/leader.png" alt="sk1ll avatar" />
+                        <div class="player__info">
+                            <div class="player__name">sk1ll</div>
+                            <div class="player__role">Leader</div>
+                            <div class="player__id">ID: 154885158</div>
+                        </div>
+                    </article>
+
+                    <article class="player">
+                        <img class="player__img" src="image/co-leader.png" alt="Rt avatar" />
+                        <div class="player__info">
+                            <div class="player__name">Rt</div>
+                            <div class="player__role">Co-Leader</div>
+                            <div class="player__id">ID: 142914286</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- JOIN -->
+        <section class="section" id="join">
+            <div class="container">
+                <div class="join">
+                    <div class="join__left">
+                        <h2 class="h2">Заявка</h2>
+                        <p class="sub">
+                            Заполни данные — мы свяжемся и предложим сыграть пару каток.
+                        </p>
+
+                        <div class="join__boxes">
+                            <div class="box">
+                                <div class="box__t">Что нужно указать</div>
+                                <ul class="list">
+                                    <li>ID и ник</li>
+                                    <li>KD и часы</li>
+                                    <li>Ранги (текущий и предыдущий сезон)</li>
+                                    <li>Контакт (Telegram или Discord)</li>
+                                </ul>
+                            </div>
+                            <div class="box">
+                                <div class="box__t">Как это происходит</div>
+                                <ol class="olist">
+                                    <li>Связь в TG/Discord</li>
+                                    <li>Пара каток вместе</li>
+                                    <li>Дальше решаем по факту</li>
+                                </ol>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="join__right">
+                        <form class="form" id="joinForm" novalidate>
+                            <input type="text" name="company" id="company" class="hp" tabindex="-1"
+                                autocomplete="off" />
+                            <input type="hidden" id="formSecret" name="formSecret" value="" />
+
+                            <div class="grid2">
+                                <div class="field">
+                                    <label for="sid">ID (Standoff 2) *</label>
+                                    <input id="sid" name="sid" required placeholder="Например: 123456789" />
+                                    <div class="field__err" data-err="sid"></div>
+                                </div>
+
+                                <div class="field">
+                                    <label for="name">Ник *</label>
+                                    <input id="name" name="name" required placeholder="Например: sk1ll" />
+                                    <div class="field__err" data-err="name"></div>
+                                </div>
+                            </div>
+
+                            <div class="grid2">
+                                <div class="field">
+                                    <label for="kd">KD *</label>
+                                    <input id="kd" name="kd" type="number" step="0.01" min="0" max="10" required
+                                        placeholder="Например: 1.27" />
+                                    <div class="field__err" data-err="kd"></div>
+                                </div>
+
+                                <div class="field">
+                                    <label for="hours">Часы *</label>
+                                    <input id="hours" name="hours" type="number" step="1" min="0" max="50000" required
+                                        placeholder="Например: 850" />
+                                    <div class="field__err" data-err="hours"></div>
+                                </div>
+                            </div>
+
+                            <div class="season">
+                                <div class="season__head">
+                                    <div class="season__title">Текущий сезон: <span id="seasonCurrent">Season X</span>
+                                    </div>
+                                </div>
+
+                                <div class="grid3">
+                                    <div class="field">
+                                        <label for="cur_duel">Дуэль *</label>
+                                        <select id="cur_duel" name="cur_duel" required></select>
+                                    </div>
+                                    <div class="field">
+                                        <label for="cur_allies">Союзники *</label>
+                                        <select id="cur_allies" name="cur_allies" required></select>
+                                    </div>
+                                    <div class="field">
+                                        <label for="cur_comp">Соревновательный *</label>
+                                        <select id="cur_comp" name="cur_comp" required></select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="season">
+                                <div class="season__head">
+                                    <div class="season__title">Предыдущий сезон: <span id="seasonPrevious">Season
+                                            X-1</span></div>
+                                </div>
+
+                                <div class="grid3">
+                                    <div class="field">
+                                        <label for="prev_duel">Дуэль *</label>
+                                        <select id="prev_duel" name="prev_duel" required></select>
+                                    </div>
+                                    <div class="field">
+                                        <label for="prev_allies">Союзники *</label>
+                                        <select id="prev_allies" name="prev_allies" required></select>
+                                    </div>
+                                    <div class="field">
+                                        <label for="prev_comp">Соревновательный *</label>
+                                        <select id="prev_comp" name="prev_comp" required></select>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="field">
+                                <label for="contact">Контакт (TG или Discord) *</label>
+                                <input id="contact" name="contact" required
+                                    placeholder="Например: @username / nick#1337" />
+                                <div class="field__err" data-err="contact"></div>
+                            </div>
+
+                            <div class="field">
+                                <label for="note">Комментарий (необязательно)</label>
+                                <textarea id="note" name="note" rows="3"
+                                    placeholder="Коротко: роль, онлайн, что важно"></textarea>
+                            </div>
+
+                            <div class="field field--consent">
+                                <label class="consent">
+                                    <input id="consent" name="consent" type="checkbox" required />
+                                    <span>
+                                        Я согласен(на) на обработку персональных данных и принимаю
+                                        <a class="link" href="privacy.html" target="_blank" rel="noopener">политику</a>.
+                                        *
+                                    </span>
+                                </label>
+                                <div class="field__err" data-err="consent"></div>
+                            </div>
+
+                            <button class="btn btn--primary btn--wide" id="submitBtn" type="submit" disabled>Отправить
+                                заявку</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container footer__inner">
+            <div class="footer__brand">
+                <div class="brand brand--footer">
+                    <span class="brand__mark brand__mark--sm" aria-hidden="true">
+                        <img class="brand__logo" src="image/clan.png" alt="" />
+                    </span>
+                    <span class="brand__text">
+                        <span class="brand__name">0ne L1fe</span>
+                        <span class="brand__tag">Standoff 2 Clan</span>
+                    </span>
+                </div>
+                <p class="micro">© <span id="year"></span> 0ne L1fe</p>
+            </div>
+
+            <div class="footer__links">
+                <a class="link" href="#top">Наверх</a>
+                <a class="link" href="privacy.html">Политика</a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="toast" id="toast" aria-live="polite" aria-atomic="true"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
